@@ -24,7 +24,7 @@ class Calc {
                 break;
             case 'div':
                 if($this->_num2 == 0){
-                    $result = "You can't be divide by 0";
+                    $result = "You can't divide by 0";
                 }else{
                     $result = $this->_num1 / $this->_num2;
                 }
